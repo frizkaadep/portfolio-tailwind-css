@@ -950,6 +950,10 @@ body {
     width: 66.666667%;
   }
 
+  .lg\:w-5\/6 {
+    width: 83.333333%;
+  }
+
   .lg\:basis-1\/4 {
     flex-basis: 25%;
   }
