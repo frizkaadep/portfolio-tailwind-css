@@ -719,6 +719,10 @@ body {
   gap: 1.25rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .self-center {
   align-self: center;
 }
@@ -976,6 +980,14 @@ body {
 
   .lg\:place-content-center {
     place-content: center;
+  }
+
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
   }
 
   .lg\:text-5xl {
