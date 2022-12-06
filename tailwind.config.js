@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["index.html"],
@@ -8,11 +10,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#14b8a6",
+        primary: "#6391A1",
+        secondary: "#64748b",
         dark: "#0f172a",
       },
       screens: {
-        "2xl": "1320",
+        "2xl": "1320px",
       },
     },
   },
